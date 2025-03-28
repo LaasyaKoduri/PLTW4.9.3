@@ -52,7 +52,7 @@ public abstract class LakeObject
 
   public String getObjectName()
   {
-    // Object methods getClass().getName() return the name of the subclassed item  
+    // Object methods getClass().getName() return the name of the subclassed item
     // for example Fish or Bait
     return this.getClass().getName();
   }
