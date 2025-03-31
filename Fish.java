@@ -8,4 +8,9 @@ public class Fish extends LakeObject
     {
       return "You now have fish!";
     }
+
+    @Override
+    public int getCost() {
+        return super.getWeight() * super.getCost();
+    }
 }

@@ -3,6 +3,13 @@
  */
 public class Bait extends LakeObject
 {
+    public Bait()
+    {
+        //Step 11
+        super();  
+        setCost(10); 
+    }
+
     @Override
     public String say()
     {
